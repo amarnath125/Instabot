@@ -1,9 +1,16 @@
+from get_user_post import get_user_post
+from get_own_post import get_own_post
+from get_user_info import get_user_info
+from like_user_post import like_user_post
+from comment_user_post import comment_user_post1
+from self_info import self_info
+from delete_negative_comments import delete_negative_comment
+from show_all_user_post_comment import show_all_comment
 
 
 #   <-------------------------InstaBot Application Starts From Here------------------------>
 
-color_text = colored("\n\t\t\t<------------*****Welcome To InstaBot Application*****------------>\n","blue")
-print color_text
+print ("\n\t\t\t<------------*****Welcome To InstaBot Application*****------------>\n","blue")
 
 # Ask What you Want to do
 menu_choices = "What do you want to do. Select from the below Choices (1-6)" \
