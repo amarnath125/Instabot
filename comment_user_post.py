@@ -15,8 +15,8 @@ def comment_user_post1(insta_username):
 
     print(post_a_comment['meta']['code'])   #Check if Comment is Posted Or Not
     if post_a_comment['meta']['code'] == 200:
-        print("\n\t\t\t*****Post comment successfully*****")
+        print("\n\t\t\tPost comment successfully")
     else :
-        print("\n\t\t\t*****Post comment Unsuccessfull*****")
+        print("\n\t\t\tPost comment Unsuccessfull")
 
 
